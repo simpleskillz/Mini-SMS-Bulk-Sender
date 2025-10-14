@@ -20,7 +20,7 @@ It allows you to send bulk SMS messages directly via Asterisk, setup content of 
 
 - **Raspberry Pi 4** (or any Linux system)
 - **Asterisk** with dongle module (`dongle sms` command must work)
-- **Huawei USB GSM modem** (Modems List: https://github.com/bg111/asterisk-chan-dongle/wiki/Requirements-and-Limitations)
+- **Huawei USB GSM modem** (Look for compatible "asterisk-chan-dongle")
 - **SIM Card** for sending sms (any provider)
 - Execute permission for `.sh` files
 
@@ -31,11 +31,11 @@ It allows you to send bulk SMS messages directly via Asterisk, setup content of 
 | File | Description |
 |------|--------------|
 | `smsbulk.sh` | Main script responsible for sending SMS messages |
-| `smsinfo.txt` | SMS message content (up to 160 characters) |
-| `smslist.txt` | List of phone numbers (one per line, full country code required) |
+| `smsinfo.txt` | Content of SMS message (up to 160 characters) |
+| `smslist.txt` | List of numbers (one per line, full country code required) |
 | `sms_log.txt` | Log of all SMS operations (auto-generated) |
-| `sent_numbers.txt` | List of successfully sent SMS messages |
-| `error_numbers.txt` | List of numbers where sending failed |
+| `sent_numbers.txt` | Log list of successfully sent SMS |
+| `error_numbers.txt` | Log list where sending SMS failed |
 
 ---
 
