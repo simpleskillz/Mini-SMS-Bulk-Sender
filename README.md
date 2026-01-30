@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="mini-sms-bulk-sender.png" alt="Opis banera" width="100%">
+</p>
+
+
 # 📱 Mini SMS Bulk Sender – Asterisk Script
 
 **Mini SMS Sender** is a lightweight script designed for **Raspberry Pi** running **Asterisk** with **Huawei USB Modem GSM**.  
